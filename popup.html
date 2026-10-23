@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h3>Bhagavad Gita</h3>
+      <span class="tag">Mindful Break</span>
+    </header>
+
+    <div class="stat-grid">
+      <div class="stat-box">
+        <span class="num" id="water-stat">0</span>
+        <span class="label">Water (Glasses)</span>
+      </div>
+      <div class="stat-box">
+        <span class="num" id="breaks-stat">0</span>
+        <span class="label">Breaks Taken</span>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="interval-select">Break Frequency:</label>
+      <select id="interval-select">
+        <option value="20">Every 20 mins</option>
+        <option value="30" selected>Every 30 mins</option>
+        <option value="45">Every 45 mins</option>
+        <option value="60">Every 60 mins</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button id="break-now-btn" class="btn primary">Take Break Now</button>
+      <button id="reset-stats-btn" class="btn secondary">Reset Today's Stats</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

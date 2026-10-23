@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bhagavad Gita Break Timer",
+  "version": "1.0",
+  "description": "Desk breaks with Bhagavad Gita verses, posture resets, and hydration tracking.",
+  "permissions": [
+    "alarms",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Bhagavad Gita Break Timer"
+  }
+}

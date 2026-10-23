@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mindful Reset</title>
+  <link rel="stylesheet" href="break.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="badge" id="theme-badge">Theme</div>
+      
+      <p class="sanskrit" id="verse-sanskrit">Loading verse...</p>
+      <p class="transliteration" id="verse-transliteration"></p>
+      <p class="reference" id="verse-ref"></p>
+
+      <hr class="divider"/>
+
+      <div class="content-section">
+        <h4>Meaning</h4>
+        <p class="translation" id="verse-translation"></p>
+      </div>
+
+      <div class="content-section highlight-box">
+        <h4>Personal Reflection</h4>
+        <p class="takeaway" id="verse-takeaway"></p>
+      </div>
+
+      <div class="action-box">
+        <span class="icon">🧘</span>
+        <span id="verse-action">Step away from screen.</span>
+      </div>
+
+      <div class="timer-section">
+        <span id="countdown">60</span>s break remaining
+      </div>
+
+      <div class="footer-buttons">
+        <button id="drink-btn" class="btn water-btn">💧 Log Glass of Water</button>
+        <button id="close-btn" class="btn primary-btn">Resume Work</button>
+      </div>
+    </div>
+  </div>
+  <script src="break.js"></script>
+</body>
+</html>
